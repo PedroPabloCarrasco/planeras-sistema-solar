@@ -10,6 +10,7 @@ const getPlanets = async () => {
 };
 
 const Planets: FC = () => {
+  
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [planets, setPlanets] = useState<Planet[]>([]);
